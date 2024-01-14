@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Would you like to go out with me?</h1>
+            </div>
+            
+            <div class="gif_container">                               
+                <img src="./naughty-kitten.gif" alt="yes" height="300vh">
+            </div>
+            <div class="buttons">
+                <button class="btn" id="yes_btn" onclick="nextPage()">Yes</button>
+                <button class="btn" id="no_btn" onmouseover="moveButton()">No</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "./yes.html";
+                    }
+                    function moveButton() {
+                        var btn = document.getElementById("no_btn");
+                        var x = Math.random()*(window.innerWidth - document.getElementById('no_btn').offsetWidth);
+                        var y = Math.random()*(window.innerHeight - document.getElementById('no_btn').offsetHeight);
+                        document.getElementById('no_btn').style.left = `${x}px`;
+                        document.getElementById('no_btn').style.top = `${y}px`;
+                    }
+                </script>
+            </div>
+        </div>
+                
+    </body>
+</html>

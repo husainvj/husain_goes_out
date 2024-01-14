@@ -1,0 +1,109 @@
+/* Reset styles */
+/* BEGIN: Reset styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: rgb(252, 254, 252);   
+    margin: 0;
+    padding: 0;
+}
+#no_btn {
+    background-color: red;
+    height: 7vh;
+    width: 10vw;
+    color: white;
+    border: none;
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 27vw;
+    transition: 0.5s;
+
+}
+#yes_btn {
+    background-color: green;
+    height: 7vh;
+    width: 10vw;
+    color: white;
+    border: none;
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 13vw;
+    transition: 0.5s;
+}
+.header {
+    font-family: 'comic sans ms';
+    color: rgb(80, 32, 32);
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.buttons {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.btn {
+    display: inline-block;
+    align-items: center;
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding:15px 32px;
+    text-align: center;   
+}
+.gif_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+/* Add your reset styles here */
+
+/* END: Reset styles */
+
+
+/* Global styles */
+/* BEGIN: Global styles */
+/* Add your global styles here */
+
+/* END: Global styles */
+
+
+/* Header styles */
+/* BEGIN: Header styles */
+/* Add your header styles here */
+
+/* END: Header styles */
+
+
+/* Navigation styles */
+/* BEGIN: Navigation styles */
+/* Add your navigation styles here */
+
+/* END: Navigation styles */
+
+
+/* Main content styles */
+/* BEGIN: Main content styles */
+/* Add your main content styles here */
+
+/* END: Main content styles */
+
+
+/* Footer styles */
+/* BEGIN: Footer styles */
+/* Add your footer styles here */
+
+/* END: Footer styles */
