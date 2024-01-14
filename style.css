@@ -17,7 +17,7 @@ body {
     border: none;
     position: absolute;
     border-radius: 5px;
-    cursor: hover;
+    cursor: touch;
     font-size: 1.2rem;
     margin-left: 27vw;
     transition: 0.5s;
